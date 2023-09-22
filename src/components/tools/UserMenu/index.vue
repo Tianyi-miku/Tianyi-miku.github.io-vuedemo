@@ -1,7 +1,7 @@
 <template>
   <div class="user-wrapper">
     <div class="content-box">
-      <a href="https://github.com/bailihuiyue/ant-design-pro-vue3/blob/main/README.md" target="_blank">
+      <a target="_blank">
         <span class="action">
           <QuestionCircleOutlined />
         </span>

@@ -3,7 +3,7 @@
 An out-of-box UI solution for enterprise applications as a Vue boilerplate. based on  <a href="https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/" target="_blank">Ant Design of Vue</a>
 </div>
 
-基于 [Vite2 Vue3 Ant-Design-of-Vue2 TS](https://github.com/bailihuiyue/ant-design-pro-vue3) 实现的 [Ant Design Pro Vue](https://pro.antdv.com/docs/router-and-nav)
+  [Ant Design Pro Vue](https://pro.antdv.com/docs/router-and-nav)
 
 项目下载和运行
 ----
@@ -93,7 +93,7 @@ yarn build
       - 优点
 
       		1. 可以任意在生产环境下选择主题颜色;
-
+      	
       		2. 没有上一中法案的问题3,主题更改比较全面
 
       - 缺点:
