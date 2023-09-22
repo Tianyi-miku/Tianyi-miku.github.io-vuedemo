@@ -1,1 +1,0 @@
-import{_ as a,ch as t,w as r,o as s,a as e,z as n}from"./vendors-ac8af1c3.js";var o=a({props:{graphData:Object},components:{VueJsonPretty:t}},[["render",function(a,t,o,p,c,u){const d=r("vue-json-pretty");return s(),e("div",null,[n(d,{path:"res",data:o.graphData},null,8,["data"])])}]]);export{o as default};
