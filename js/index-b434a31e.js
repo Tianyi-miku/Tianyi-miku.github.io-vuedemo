@@ -1,1 +1,0 @@
-import{_ as s,d as a,o as d,a as e}from"./vendors-a4d7b1d1.js";const o={class:"D3js"};var t=s(a({__name:"index",setup:s=>(s,a)=>(d(),e("section",o," 123 "))}),[["__scopeId","data-v-32f47dc6"]]);export{t as default};
