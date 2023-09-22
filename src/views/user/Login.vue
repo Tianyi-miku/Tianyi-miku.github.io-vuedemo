@@ -46,8 +46,8 @@
             <a-col class="gutter-row" :span="8">
               <a-button class="getCaptcha" tabindex="-1" :disabled="state.smsSendBtn" @click.stop.prevent="getCaptcha">
                 {{
-                (!state.smsSendBtn && $t("user.register.get-verification-code")) ||
-  state.time + " s"
+                  (!state.smsSendBtn && $t("user.register.get-verification-code")) ||
+                  state.time + " s"
                 }}
               </a-button>
             </a-col>
@@ -84,7 +84,7 @@
         </a>
         <router-link class="register" :to="{ name: 'register' }">
           {{
-  $t("user.login.signup")
+            $t("user.login.signup")
           }}
         </router-link>
       </div>
@@ -121,6 +121,7 @@ import { FormState } from './types'
 import config from '@/config/defaultSettings'
 import generateAsyncRoutes from '@/router/generateAsyncRoutes'
 import { useGetCaptcha } from './helper'
+import userLogin from './userMock'
 
 export default defineComponent({
   components: {
@@ -216,7 +217,10 @@ export default defineComponent({
       validate(validateFieldsKey)
         .then(async () => {
           formRef.password = encryptByMd5(formRef.password)
-          const res = await api.userLogin(formRef)
+          // const res = await api.userLogin(formRef)
+          const res: any = userLogin
+          console.log(res);
+
           if (res) {
             // mock用,可删
             if (res.code === 403) {

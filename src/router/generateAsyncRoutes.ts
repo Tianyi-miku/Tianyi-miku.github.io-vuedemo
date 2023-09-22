@@ -5,6 +5,7 @@ import { BasicLayout, RouteView, BlankLayout } from '@/layouts'//, BlankLayout, 
 import { getRoutePages } from '@/utils/batchImportFiles'
 import { MENU_NAV } from '@/store/mutation-types'
 
+
 // 前端路由表
 const constantRouterComponents: { [x: string]: Function } = {
   // 基础页面 layout 必须引入
