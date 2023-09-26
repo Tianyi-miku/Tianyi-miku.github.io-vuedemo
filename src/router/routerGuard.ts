@@ -9,7 +9,7 @@ import type { Router } from 'vue-router';
 NProgress.configure({ showSpinner: false }) // NProgress Configuration
 
 const whiteList = ['login', 'register', 'registerResult'] // 不进行拦截的路由名称集合
-const defaultRoutePath = '/Tianyi-miku.github.io-vuedemo/dashboard/analysis'
+const defaultRoutePath = '/dashboard/analysis'
 
 export const setupBeforeEach = (router: Router) => {
   router.beforeEach((to, from, next) => {

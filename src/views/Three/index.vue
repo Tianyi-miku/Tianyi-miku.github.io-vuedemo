@@ -27,7 +27,7 @@ const initImg = () => {
       prefix + 'pz' + postfix, prefix + 'nz' + postfix
     ]
   }
-  const urls = genCubeUrls('/img/pisa/', '.png')
+  const urls = genCubeUrls('/Tianyi-miku.github.io-vuedemo/img/pisa/', '.png')
   new THREE.CubeTextureLoader().load(urls, (CubeTexture1: { encoding: any; }) => {
     cubeTexture = CubeTexture1
     scene.background = CubeTexture1

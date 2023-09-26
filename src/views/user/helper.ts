@@ -18,7 +18,8 @@ export const loginSuccess = (res, router: Router) => {
     ls.set(PERMISSION, Array.isArray(res.permission) ? res.permission : res.permission.split(','));
     ls.set(USER_INFO, res);
   }
-  router.push({ path: '/' });
+  // router.push({ path: '/' });
+  window.location.pathname = '/Tianyi-miku.github.io-vuedemo/'
 };
 
 export const requestFailed = (err) => {

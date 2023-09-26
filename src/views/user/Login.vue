@@ -219,8 +219,6 @@ export default defineComponent({
           formRef.password = encryptByMd5(formRef.password)
           // const res = await api.userLogin(formRef)
           const res: any = userLogin
-          console.log(res);
-
           if (res) {
             // mock用,可删
             if (res.code === 403) {
