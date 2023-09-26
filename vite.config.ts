@@ -21,7 +21,7 @@ const pathResolve = (pathStr: string) => {
 
 export default ({ command, mode }: ConfigEnv): UserConfig => {
   return {
-    // base: '/Tianyi-miku.github.io-vuedemo/',
+    base: '/Tianyi-miku.github.io-vuedemo/',
     server: {
       host: '0.0.0.0',
       port: 8000

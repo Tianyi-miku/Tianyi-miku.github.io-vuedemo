@@ -5,7 +5,7 @@ import generateAsyncRoutes from './generateAsyncRoutes'
 import routes from './commonRoutes'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/Tianyi-miku.github.io-vuedemo/'),
   routes: routes as unknown as RouteRecordRaw[],
 });
 
