@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { onMounted, onBeforeUnmount } from 'vue'
-import audio2ch from "../../../mock/audio2ch.json";
+import audio2ch from "../../../public/mock/audio2ch.json";
 // import * as api from './service'
 import { lightningChart, LUT, PalettedFill, emptyLine, AxisScrollStrategies, AxisTickStrategies, regularColorSteps, Themes } from '@arction/lcjs'
 
