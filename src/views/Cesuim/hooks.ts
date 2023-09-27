@@ -16,6 +16,10 @@ export function loadView() {
     fullscreenButton: false,
     vrButton: false,
     infoBox: false, // 默认焦点弹框
+    // 指定上下文
+    contextOptions: {
+      requestWebgl1: true,
+    },
     // imageryProvider: custom, // 设置图像提供的程序
   })
 
